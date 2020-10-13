@@ -1,9 +1,7 @@
 # DOM-exercise
 
-Use 'clone or download' button to download this repo as zip.
-
 ### Task A, CSS
-1. Edit the CSS by following techer's instructions.
+1. EUse 'clone or download' button to download this repo as zip.
 
 ### Task B, [JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
 1. Create new file task-b.html
