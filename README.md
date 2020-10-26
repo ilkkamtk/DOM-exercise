@@ -1,12 +1,10 @@
 # DOM-exercise
 
 ### Task A, CSS
-1. CLick on the green 'Code' button and download this repo as zip.
+1. Click on the green 'Code' button and download this repo as zip.
 
 ### Task B, [JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
-1. Create new file task-b.html
-1. Copy the content of index.html and paste it to task-b.html
-1. Change the src of `<script>` element to main-b.js
+1. Open task-b.html
 1. Add another `<article>` element to `<main>` by modifying js/main-b.js:
    * The new `<article>` element should containt the same elements as the existing `<article>` element
    * Select `<main>` element with [DOM-methods](https://www.w3schools.com/js/js_htmldom_elements.asp)
@@ -15,25 +13,26 @@
    * If you want to make a multiline string for the HTML, you need to use + operator or create a [template string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
    
 ### Task C, [JavaScript HTML DOM Elements](https://www.w3schools.com/js/js_htmldom_nodes.asp)
-1. Create new file task-c.html
-1. Copy the content of index.html and paste it to task-c.html
-1. Change the src of `<script>` element to main-c.js
+1. Open task-c.html
 1. Add another `<article>` element to `<main>`:
    * The new `<article>` element should containt the same elements as the existing `<article>` element
    * Select `<main>` element with [DOM-methods](https://www.w3schools.com/js/js_htmldom_elements.asp)
    * Use DOM methods (createElement, appendChild) to add the new `<article>` element to `<main>` element.
    
 ### Task D, content from array by [iterating](https://www.w3schools.com/js/js_loop_for.asp)
-1. Create new file task-d.html
-1. Copy the content of index.html and paste it to task-d.html
-1. Change the src of `<script>` element to main-d.js
-1. Delete the `<article>` element from `<main>` in your editor.
+1. Open task-d.html
+1. Add `<article>` elements to `<main>` by iterating picArray with for loop (or [for..of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) or [forEach](https://www.w3schools.com/jsref/jsref_foreach.asp)).
+   * The new `<article>` elements should containt the same elements as the `<article>` element in previous tasks
+   1. Select `<main>`element with DOM-methods
+   1. Use DOM methods (createElement, appendChild) to add the new `<article>` elements to `<main>`element.
+      * title property from the array goes to to `<h2>` and `<img>` element's alt attribute
+      * caption property from the array goes to to `<caption>` element
+      * filename property from the array goes to to `<img>` element's src attribute
+      * description property from the array goes to to `<p>` element 
+      
+### Task E, content from array by iterating
+1. Open task-e.html
 1. Add `<article>` elements to `<main>` by iterating picArray with for loop (main-d.js).
-   * The new `<article>` elements should containt the same elements as the existing `<article>` element
-   * Select `<main>`element with DOM-methods
-   * Use DOM methods (createElement, appendChild) or innerHTML property to add the new `<article>` elements to `<main>`element.
-      * put title to `<h2>` and `<img>` element's alt attribute
-      * put caption to `<caption>` element
-      * put filename to `<img>` element's src attribute
-      * put description to `<p>` element 
-
+   * The new `<article>` elements should containt the same elements as the `<article>` element in previous tasks
+   1. Select `<main>`element with DOM-methods
+   1. Use innerHTML property to add the new `<article>` elements to `<main>`element. The end result should be the same as in task D.

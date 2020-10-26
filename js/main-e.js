@@ -57,4 +57,4 @@ const picArray = [
   },
 ];
 
-// Put code of task D here
+// Put code of task E here
